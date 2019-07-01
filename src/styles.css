@@ -1,0 +1,352 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	margin:0;
+	padding: 0;
+	font-size: 14px;
+}
+*{
+  outline: unset;
+}
+.custom-navbar{
+	float: left;
+	width: 100%;
+	background: transparent;
+}
+.hompage-banner{
+	float: left;
+	width: 100%;
+	/*height: calc(100vh - 60px);*/
+	height: 100vh;
+	margin-top: -56px;
+	bottom: 0px;
+    background:#d1d1d1 url("assets/images/gray-banner-one.jpg") no-repeat;
+	background-size: cover;
+}
+.custom-navbar-collapse{
+    flex-grow: 0 !important;
+}
+.custom-navbar .navbar-brand{
+	color: #ffffff;
+}
+.custom-navbar .nav-item a{
+	color: #ffffff;
+}
+.full-height-inner{
+	display: flex;
+	flex-direction: column;
+    height: 100vh;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.full-height-inner h1{
+	font-size: 40px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+.full-height-inner p{
+	font-size: 18px;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	margin: 15px 0px 20px 0px;
+}
+.full-height-inner button{
+	background: rgba(255,255,255,0.3);
+	border:1px solid #ffffff;
+    min-width: 150px;
+    padding: 8px;
+    color: #000000;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.page-titles{
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.what-we-do-section{
+	float: left; 
+	width: 100%; 
+	margin: 50px 0px;
+}
+.what-we-do-tiles{
+	float: left;
+	width: 100%;
+	height: 270px;
+	margin:15px 0px;
+	display: table;
+	text-align: center;
+	background: #f8f9fa;
+	padding: 15px;	
+	-moz-box-shadow: 10px 10px 5px #f3f5fe;
+-webkit-box-shadow: 10px 10px 5px #f3f5fe;
+box-shadow: 10px 10px 5px #f3f5fe;
+}
+.what-we-do-tiles-center{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+.what-we-do-icon i{
+   color: #da9d40;
+   font-size: 30px;
+}
+.what-we-do-title{
+	font-size: 16px;
+	color: #313131;
+	margin: 10px 0px;
+	font-weight: bold;
+}
+.what-we-do-details{
+	font-weight: normal;
+	font-size: 14px;
+	color: #313131;
+}
+.what-we-do-image-right{
+	float: left;
+	width: 100%;
+	height: 600px;
+	background: #d1d1d1 url(assets/images/brazilian-woman-city-commuters.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.years-in-the-field-section{
+	float: left;
+	width: 100%;
+	height: 410px;
+	padding:50px 0px;
+	background: #d1d1d1 url(assets/images/lights-locomotive-modern-1814398.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.years-in-field-title{
+	width: 100%;
+	color: #ffffff;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.years-in-field-detail{
+	font-size: 12px;
+	color: #cccccc;
+	line-height: 25px;
+	margin: 20px 0px;
+}
+.years-in-field-number{
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.years-in-field-number span{
+	color: #da9d40;
+	font-size: 30px;
+}
+.years-in-field-icon{
+	width: 50px;
+	height: 50px;
+	padding: 15px;
+	background:#ffffff;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.years-in-field-count{
+	width: 100%;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+	margin:15px 0px;
+	text-transform: capitalize;
+}
+.years-in-field-customer{
+	font-size: 12px;
+	color: #cccccc;
+	text-transform: capitalize;
+}
+.years-in-field-icon i{
+	color: #313131;
+	font-size: 20px;
+}
+.what-people-are-saying{
+	float: left;
+	width: 	100%;
+	padding: 50px 0px;
+	background: #f5f5f5;
+}
+.client-message-cover{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 40px 30px 20px 30px;
+	background: #ffffff;
+}
+.client-message{
+	float: left;
+	width: 100%;
+	font-size: 20px;
+	color: #313131;
+	line-height: 30px;
+}
+.client-image{
+	float: left;
+	width: 100%;
+    margin:15px 0px 5px 0px;
+}
+.client-image img{
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.center-item-height{
+	min-height:310px; 
+}
+.center-item-small-height{
+	min-height: 240px;
+}
+.client-info{
+
+}
+.ready-to-work-section{
+	float: left;
+	width: 100%;
+	height: 300px;
+	padding:30px 0px;
+	background: #d1d1d1 url(assets/images/lights-locomotive-modern-1814398.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.ready-to-work-mask{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.ready-to-work-mask-title{
+	float: left;
+	width: 100%;
+	font-size: 30px;
+	color: #ffffff;
+	margin: 10px 0px;
+	text-transform: capitalize;
+}
+.ready-to-work-info{
+	float: left;
+	width: 100%;
+	font-size: 15px;
+	color: #cccccc;
+	line-height: 20px;
+	margin:10px 0px;
+}
+.ready-to-work-mask button{
+	background: #da9d40;
+	margin-top: 30px;
+	border:medium none;
+	padding: 5px 10px;
+	min-width: 120px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+.new-letter-section{
+	float: left;
+	width: 100%;
+	background: #ffffff;
+	padding: 50px 0px;
+}
+.news-letter-info{
+	float: left;
+	width: 100%;
+	margin-top: 35px;
+	font-size: 28px;
+	color: #000000;
+	line-height: 30px;
+}
+.new-letter-section form{
+    margin-top: 51px;
+}
+.news-letter-email{
+	float: left;
+	width: 70%;
+}
+.news-letter-input{
+	float: right;
+	width: 70%;
+	height: 40px;
+	margin: 0px 10px;
+	border:medium none;
+	border-bottom: 2px solid #313131;
+}
+.news-letter-subscribe{
+	float: left;
+	width: 30%;
+}
+.news-letter-subscribe button{
+	float: left;
+	width: 100%;
+	background: #da9d40;
+    border: medium none;
+    padding: 8px 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.footer-section{
+	float:left;
+	width: 100%;
+	background: #000000;
+}
+.footer-copyright-mask{
+	float: left;
+	width: 100%;
+	padding: 15px 0px;
+	border-top: 1px solid #777777;
+}
+.footer-copyright{
+   text-align:center;
+	font-size: 13px;
+	color: #777777;
+}
+.get-in-tcuh-title{
+	font-size: 55px;
+	line-height: 55px;
+	color: #cccccc;
+	font-weight: bold;
+}
+.footer-socilmedia {
+    float: left;
+    width: 100%;
+}
+.footer-socilmedia i{
+	margin: 0px 15px;
+	color: #777777;
+	font-size: 18px;
+	float: right;
+}
+.footer-menu{
+	float: left;
+	width: 100%;
+}
+.footer-menu ul{
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-top: 20px;
+}
+.footer-menu ul li{
+	float: right;
+	width: auto;
+    margin: 10px 15px;
+}
+.footer-menu ul li a, .footer-menu ul li a:hover, .footer-menu ul li a:focus{
+	text-decoration: none;
+	font-size: 18px;
+	color: #777777;
+}
